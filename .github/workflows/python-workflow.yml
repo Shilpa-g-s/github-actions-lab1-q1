@@ -15,4 +15,5 @@ jobs:
 
     - name: Install dependencies
       run: |
+        echo "correct"
         pip install -r requirements.txt
